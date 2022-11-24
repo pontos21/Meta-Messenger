@@ -30,7 +30,7 @@ function MessageComponent({message}: Props) {
             <p>{message.message}</p>
           </div>
 
-          <p className={`text-[0.65rem] italic px-2 text-gray-300 ${isUser && 'text-right'}`}>{new Date(message.created_at).toLocaleString()}</p>
+          <p className={`text-[0.65rem] italic px-2 text-gray-300 ${isUser && 'text-right'}`}>{new Date(message.created_at).toLocaleDateString()}</p>
         </div>
       </div>
     </div>
