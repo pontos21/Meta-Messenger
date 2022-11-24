@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Message } from "../typings"
+import React from 'react'
 
 
 type Props = {
